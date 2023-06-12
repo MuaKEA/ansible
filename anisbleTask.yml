@@ -1,6 +1,6 @@
 ---
 - name: ansibleTask
-  hosts: 10.1.20.157
+  hosts: 10.1.20.157 10.1.20.215
   gather_facts: true
   vars:
     ansible_python_interpreter: /usr/bin/python3
