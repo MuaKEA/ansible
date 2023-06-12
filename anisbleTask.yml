@@ -1,6 +1,6 @@
 ---
 - name: ansibleTask
-  hosts: prod
+  hosts: all
   gather_facts: true
   vars:
     ansible_python_interpreter: /usr/bin/python3
